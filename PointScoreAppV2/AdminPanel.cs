@@ -54,7 +54,8 @@ namespace PointScoreAppV2
         private void Anzeigepanel_Click(object sender, EventArgs e)
         {
             //AnzeigePanel anzeigen
-            ap.Show();      //keine Absicherung das der User es nicht 2 mal oeffnet
+            ap.Show();
+            Anzeigepanel.Visible = false;
         }
     }
 }

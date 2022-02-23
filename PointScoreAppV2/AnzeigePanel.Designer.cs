@@ -80,6 +80,7 @@ namespace PointScoreAppV2
             this.PunkteP2.Size = new System.Drawing.Size(188, 54);
             this.PunkteP2.TabIndex = 5;
             this.PunkteP2.Text = "Punkte: 0";
+            this.PunkteP2.Click += new System.EventHandler(this.PunkteP2_Click);
             // 
             // PunkteProgressBarP1
             // 
